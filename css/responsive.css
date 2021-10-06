@@ -1,0 +1,249 @@
+/*// Extra devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+.footer_left{
+	text-align: center;
+}
+.social_icone_footer i {
+  
+    left: 132px;
+}
+.footer_left i {
+    display: none;
+}
+.footer_left input[type="submit"] {
+    padding: 0 4px;
+}
+.footer_left form {
+    padding: 6px 224px;
+}
+.form_middle {
+    width: 97%;
+}
+.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+}
+.navbar-nav {
+    border-radius: 21px;
+    background: #2f2a2a;
+    color: white;
+    padding-bottom: 99px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #e0d1d1;
+}
+.navbar {
+    padding-bottom: 8px;
+}
+#banner_part {
+    padding: 121px 0px 60px 0px;
+}
+.banner_text h2 {
+    font-size: 26px;
+   
+}
+.about_bottom_right h2 {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.about_bottom_right h2 {
+    padding-top: 44px;
+}
+.col_fourth {
+    margin: 20px;
+}
+.service_grid{
+    width: 100%;
+    flex: 100%;
+    padding-bottom: 20px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.question_top h2 {
+    font-size: 24px;
+}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+}
+.navbar-nav {
+    border-radius: 21px;
+    background: #2f2a2a;
+    color: white;
+    padding-bottom: 99px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #e0d1d1;
+}
+.navbar {
+    padding-bottom: 8px;
+}
+#banner_part {
+    padding: 121px 0px 60px 0px;
+}
+.banner_text h2 {
+    font-size: 26px;
+   
+}
+.about_bottom_right h2 {
+    font-size: 22px;
+    padding-top: 30px;
+}
+.about_bottom_right h2 {
+    padding-top: 44px;
+}
+#service_part {
+    padding:2px 0px;
+}
+.service_middle .service_Link {
+    font-size: 17px; 
+}
+.service_icone i {
+    width: 60px;
+    height: 60px;
+    font-size: 23px;
+    line-height: 60px;
+}
+.service_middle .service_Link:before {
+    top: 38%;
+}
+.form_middle {
+    width: 134%;
+}
+#department_part {
+     padding: 30px 0px;
+}
+.nav-tabs .nav-link p {
+    margin-right: -263px;
+}
+.tab-pane img {
+    max-width: 100%;
+   
+}
+.testimonial_icone_right {
+    left: -297px;
+}
+.btn_card {
+    text-align: left;
+}
+#contact_part {
+    background: #FFFFFF;
+    padding: -55px 0px 90px 0px;
+    /* min-height: 320px; */
+}
+textarea.form-control {
+    height: auto;
+    width: 135%;
+}
+.footer_left input[type="submit"] {
+    padding: 0 6px;
+}
+.footer_left form {
+    padding: 6px 115px;
+}
+#footer_bottom {
+    padding: 2px 0px;
+}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+ .navbar-light .navbar-nav .nav-link {
+  text-align: center;
+}
+.navbar {
+    padding-bottom: 8px;
+}
+.btn-primary {
+    left: 270px;
+}
+.navbar {
+    padding-bottom: 30px;
+}
+#banner_part {
+    padding: 177px 0px 50px 0px;
+}
+.about_bottom_right h2 {
+    padding-top: 44px;
+}
+.count_colum {
+    padding: 8px;
+}
+.about_last_left {
+    margin-top: 30px;
+}
+#service_part {
+    padding: 2px 0px;
+}
+.service_middle .service_Link:before {
+    top: 50%; 
+}
+textarea.form-control {
+    height: auto;
+    width: 208%;
+}
+.nav-tabs .nav-link p {
+    margin-right: -263px;
+}
+.testimonial_icone_right {
+    top: -88px;
+    left: -56px;
+}
+#gallery_part {
+    padding: 0px 0px 90px 0px;
+   
+}
+#pricing_part {
+   
+    padding: 30px 0px 90px 0px;
+   
+}
+#question_part {
+    padding: 18px 0px 90px 0px;
+    /* min-height: 320px; */
+}
+textarea.form-control {
+    height: auto;
+    width: 175%;
+}
+.form_middle {
+    width: 177%;
+}
+#footer_bottom {
+    background: #EEEEEE;
+    padding: 7px 0px;
+}
+.navbar-nav {
+    border-radius: 21px;
+    background: #2f2a2a;
+    color: white;
+    padding-bottom: 99px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #e0d1d1;
+}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.footer_left form {
+    padding: 6px 142px;
+}
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+.footer_left form {
+    padding: 6px 142px;
+}
+
+ }
